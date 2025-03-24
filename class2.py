@@ -7,3 +7,4 @@ print(np1.size)
 
 #slicing
 print(np1[0:4])
+print(np1[::2])
