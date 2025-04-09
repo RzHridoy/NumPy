@@ -17,11 +17,13 @@ print('\n')
 print(np1.itemsize)
 print('\n')
 
+#list does not allow multiplication
 '''li2 = [2, 3]
 li3 = [3, 4]
 print(li2 * li3)
 print('\n')'''
 
+#numpy matrix allows multiplication
 np2 = np.array([2, 3])
 np3 = np.array([3, 4])
 print(np2 * np3)
